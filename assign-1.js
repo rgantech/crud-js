@@ -28,10 +28,17 @@ for(getdata of users){
 //document.write(getdata.name);
 }
 
-const myarr_name = users.map((myval) => {
-    return `<tr><td>${myval.name}</td> <td>${myval.age}</td> <td>${myval.phone}</td></tr>`;
+const myarr = users.map((myval, index) => {
+    return `<tr><td>${index}</td><td>${myval.name}</td> <td>${myval.age}</td> <td>${myval.phone}</td></tr>`;
   
 } );
 
-const data = myarr_name.join('');
+const myarr_2 = users.map((myval, index) => {
+    return `His name is ${myval.name}, he is ${myval.age} years old`;
+  
+} );
+
+const data = myarr.join('');
 document.getElementById('showtheresult').innerHTML=data
+
+document.getElementById('showtheresult-2').innerHTML=myarr_2[1]
