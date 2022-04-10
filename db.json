@@ -1,0 +1,26 @@
+{
+    "clients": [
+      {
+        "id" : 1,  
+        "age": 36,
+        "name": "Dunlap Hubbard",
+        "gender": "male",
+        "company": "CEDWARD"
+        
+      },
+      {
+        "id" : 2,
+        "age": 24,
+        "name": "Kirsten Sellers",
+        "gender": "female",
+        "company": "EMERGENT"
+      },
+      {
+        "id" : 3,  
+        "age": 30,
+        "name": "Acosta Robbins",
+        "gender": "male",
+        "company": "ORGANICA"
+      }
+    ]
+  }
