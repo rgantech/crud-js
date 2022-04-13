@@ -1,26 +1,102 @@
 {
-    "clients": [
-      {
-        "id" : 1,  
-        "age": 36,
-        "name": "Dunlap Hubbard",
-        "gender": "male",
-        "company": "CEDWARD"
-        
-      },
-      {
-        "id" : 2,
-        "age": 24,
-        "name": "Kirsten Sellers",
-        "gender": "female",
-        "company": "EMERGENT"
-      },
-      {
-        "id" : 3,  
-        "age": 30,
-        "name": "Acosta Robbins",
-        "gender": "male",
-        "company": "ORGANICA"
-      }
-    ]
-  }
+  "clients": [
+    {
+      "id": 1,
+      "uname": "Dunlap Hubbard",
+      "email": "dunlap@gmail.com",
+      "phone": 99887766,
+      "password": "abc1212"
+    },
+    {
+      "uname": "dummy",
+      "email": "jupinder@antech.in",
+      "phone": "9878362625",
+      "password": "pass1234567",
+      "id": 2
+    },
+    {
+      "uname": "dummy",
+      "email": "vikram@antech.in",
+      "phone": "8877665544",
+      "password": "@pas321221",
+      "id": 3
+    },
+    {
+      "uname": "shubham",
+      "email": "vikram@antech.in",
+      "phone": "8877665544",
+      "password": "pass123456",
+      "id": 4
+    },
+    {
+      "uname": "testusername",
+      "email": "test@test.com",
+      "phone": "9878362625",
+      "password": "pass1234567",
+      "id": 5
+    },
+    {
+      "uname": "admin",
+      "email": "admin@test.com",
+      "phone": "8877665544",
+      "password": "password123456",
+      "id": 6
+    },
+    {
+      "uname": "root",
+      "email": "rohit.gautam@antiersolutions.com",
+      "phone": "0009988776",
+      "password": "passtest12321",
+      "id": 7
+    },
+    {
+      "uname": "zsfsfs",
+      "email": "rohit.gautam@antiersolutions.com",
+      "phone": "8877665544",
+      "password": "nkhhjghfgf",
+      "id": 8
+    },
+    {
+      "uname": "gxfgfd",
+      "email": "dgdfgdf@test.com",
+      "phone": "98878766",
+      "password": "sdmgdsgjdkfgfdg",
+      "id": 9
+    },
+    {
+      "uname": "dummy",
+      "email": "testresult@test.com",
+      "phone": "8877665544",
+      "password": "vdsgsgsdfgdf",
+      "id": 10
+    },
+    {
+      "uname": "root",
+      "email": "vikram@antech.in",
+      "phone": "9878362625",
+      "password": "dgdsgdfgfd",
+      "id": 11
+    },
+    {
+      "uname": "kanu",
+      "email": "kanu@gmail.com",
+      "phone": "9988776655",
+      "password": "tests123",
+      "id": 12
+    },
+    {
+      "uname": "shubham",
+      "email": "vikram@antech.in",
+      "phone": "8877665544",
+      "password": "cbchfghfg",
+      "id": 13
+    },
+    {
+      "uname": "dummy",
+      "email": "jaglongia@gmail.com",
+      "phone": "0099887766",
+      "password": "sdsdgdfgdf",
+      "id": 14
+    }
+  ]
+}

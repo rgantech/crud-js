@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register page</title>
+
+    <style>
+        
+        .nav {display: block;text-align: right;width: 100%;position: relative;right: 40px;}
+            
+            .nav li {display: inline-block;font-size: 23px;width: 100px;}
+            
+            .nav a {text-decoration: none;color: #000;}
+            form {border: 1px solid;padding: 30px 43px;position: absolute;width: 17%;left: 40%;top: 20%;}
+        </style>
+        
+</head>
+<body>
+
+    <header>
+
+        <div class="nav">
+
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/login.html">Login</a></li>
+                <li><a href="/register.html">Register</a></li>
+                
+            </ul>
+             
+
+        </div>
+
+    </header>
+
+    <form>
+
+        <p><label>Name</label></p>
+        <p><input type="text" name="uname" id="uname"/></p>
+        <p style="color:red;" class="err"></p>
+
+        <p><label>Email</label></p>
+        <p><input type="email" name="email" id="email"/></p>
+        <p style="color:red;" class="err"></p>
+
+        <p><label>Phone</label></p>
+        <p><input type="text" name="phone" id="phone"/></p>
+        <p style="color:red;" class="err"></p>
+
+        <p><label>Password</label></p>
+        <p><input type="password" name="pass" id="pass"/></p>
+        <p style="color:red;" class="err"></p>
+
+        
+        <p><button type="button" id="submitform">Register</button></p>
+
+
+    </form>
+
+    
+
+    <script src="./register.js"></script>
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login page</title>
+
+    <style>
+        
+        .nav {display: block;text-align: right;width: 100%;position: relative;right: 40px;}
+            
+            .nav li {display: inline-block;font-size: 23px;width: 100px;}
+            
+            .nav a {text-decoration: none;color: #000;}
+            form {border: 1px solid;padding: 30px 43px;position: absolute;width: 17%;left: 40%;top: 20%;}
+    </style>
+</head>
+<body>
+    <header>
+
+        <div class="nav">
+
+            <ul>
+                <li><a href="/">Home</a></li>
+                
+            </ul>
+             
+
+        </div>
+
+    </header>
+
+    <form>
+
+        <p><label>Email</label></p>
+        <p><input type="text" name="email" id="email"/></p>
+        <p style="color:red;" class="err"></p>
+
+        <p><label>Password</label></p>
+        <p><input type="password" name="pass" id="pass"/></p>
+        <p style="color:red;" class="err"></p>
+
+       <p><button type="button"  id="loginform">Login</button></p>
+
+
+    </form>
+    <script src="./login.js"></script>
+</body>
+</html>
