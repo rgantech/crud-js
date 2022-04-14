@@ -2,7 +2,7 @@
 const sessiondata = JSON.parse(localStorage.getItem("usersdata"));
 if(!sessiondata) {
      alert('You are not logged in');
-    window.location.href = "/login.html";
+    window.location.href = "/crud-js/login.html";
  }
 const dashboard = () => {
 
