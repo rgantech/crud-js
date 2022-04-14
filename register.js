@@ -54,7 +54,7 @@ else{
        alert('Record added')
        //console.log(data);
        localStorage.setItem("usersdata", JSON.stringify(mydata));
-       
+       window.location.replace("/crud-js/login.html");
        
       
    })
@@ -64,7 +64,7 @@ else{
 });
 const sessiondata = JSON.parse(localStorage.getItem("usersdata"));
  if(sessiondata.uname) {
-    window.location.replace("/login.html");
+    window.location.replace("/crud-js/login.html");
      
  }
 
