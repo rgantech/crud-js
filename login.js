@@ -5,7 +5,7 @@ let sessiondata = JSON.parse(localStorage.getItem("usersdata"));
 let uemail = document.getElementById('email').value;
  if(sessiondata.email == uemail) {
 
-    window.location.replace("/dashboard.html");
+    window.location.replace("/crud-js/dashboard.html");
 
  }
  else {
