@@ -97,26 +97,25 @@ td {padding: 15px 23px;}
 
 <div id="myModal" class="modal">
   <div class="modal-content">
-    <span class="close">&times;</span>
+    <span class="close" onclick="closemodal()">&times;</span>
     <form>
+        <p id="myid"></p>
         <p><label>Name</label></p>
-        <p><input type="text" name="uname" id="uname"/></p>
+        <p><input type="text" name="update_uname" id="update_uname"/></p>
         <p style="color:red;" class="err"></p>
 
         <p><label>Email</label></p>
-        <p><input type="email" name="email" id="email"/></p>
+        <p><input type="email" name="update_email" id="update_email"/></p>
         <p style="color:red;" class="err"></p>
 
         <p><label>Phone</label></p>
-        <p><input type="text" name="phone" id="phone"/></p>
-        <p style="color:red;" class="err"></p>
-
-        <p><label>Password</label></p>
-        <p><input type="password" name="pass" id="pass"/></p>
+        <p><input type="text" name="update_phone" id="update_phone"/></p>
         <p style="color:red;" class="err"></p>
 
         
-        <p><button type="button" id="submitform">Register</button></p>
+
+        
+        <p><button type="button" onclick="updateForm()" id="updateform">Update</button></p>
 
 
     </form>

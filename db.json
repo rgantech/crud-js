@@ -1,38 +1,15 @@
 {
   "clients": [
     {
-      "id": 1,
       "uname": "Dunlap Hubbard",
       "email": "dunlap@gmail.com",
-      "phone": 99887766,
-      "password": "abc1212"
-    },
-    {
-      "uname": "dummy",
-      "email": "jupinder@antech.in",
-      "phone": "9878362625",
-      "password": "pass1234567",
-      "id": 2
-    },
-    {
-      "uname": "dummy",
-      "email": "vikram@antech.in",
-      "phone": "8877665544",
-      "password": "@pas321221",
-      "id": 3
-    },
-    {
-      "uname": "shubham",
-      "email": "vikram@antech.in",
-      "phone": "8877665544",
-      "password": "pass123456",
-      "id": 4
+      "phone": "99887766000",
+      "id": 1
     },
     {
       "uname": "testusername",
       "email": "test@test.com",
       "phone": "9878362625",
-      "password": "pass1234567",
       "id": 5
     },
     {
@@ -41,27 +18,6 @@
       "phone": "8877665544",
       "password": "password123456",
       "id": 6
-    },
-    {
-      "uname": "root",
-      "email": "rohit.gautam@antiersolutions.com",
-      "phone": "0009988776",
-      "password": "passtest12321",
-      "id": 7
-    },
-    {
-      "uname": "zsfsfs",
-      "email": "rohit.gautam@antiersolutions.com",
-      "phone": "8877665544",
-      "password": "nkhhjghfgf",
-      "id": 8
-    },
-    {
-      "uname": "gxfgfd",
-      "email": "dgdfgdf@test.com",
-      "phone": "98878766",
-      "password": "sdmgdsgjdkfgfdg",
-      "id": 9
     },
     {
       "uname": "dummy",
@@ -78,25 +34,11 @@
       "id": 11
     },
     {
-      "uname": "kanu",
-      "email": "kanu@gmail.com",
-      "phone": "9988776655",
-      "password": "tests123",
-      "id": 12
-    },
-    {
-      "uname": "shubham",
-      "email": "vikram@antech.in",
-      "phone": "8877665544",
-      "password": "cbchfghfg",
-      "id": 13
-    },
-    {
-      "uname": "dummy",
-      "email": "jaglongia@gmail.com",
-      "phone": "0099887766",
-      "password": "sdsdgdfgdf",
-      "id": 14
+      "uname": "Rohit",
+      "email": "rohit@test.com",
+      "phone": "888776655",
+      "password": "test1232111",
+      "id": 15
     }
   ]
 }
