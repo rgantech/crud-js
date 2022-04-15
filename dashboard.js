@@ -54,7 +54,8 @@ fetch(`http://localhost:3003/clients/${id}`, {
   method: 'DELETE',
 })
 .then(res => res.json())
-.then((data) => alert('Record deleted'))
+.then((data) => alert('Record deleted'));
+     dashboard();
 }
 
 const updateForm = () => {
