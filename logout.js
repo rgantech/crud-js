@@ -1,2 +1,2 @@
 localStorage.clear();
-window.location.replace("/crud-json");
+window.location.replace("/crud-js");
