@@ -55,7 +55,6 @@ fetch(`http://localhost:3003/clients/${id}`, {
 })
 .then(res => res.json())
 .then((data) => alert('Record deleted'));
-     dashboard();
 }
 
 const updateForm = () => {
@@ -84,10 +83,7 @@ const mydata = {
     return res.json();
    })
    .then((data) => {
-       alert('Record updated');
-       
-       dashboard();
-       
+       alert('Record updated');      
       
    })
    .catch((err) => {alert('error');})
